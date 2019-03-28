@@ -1,5 +1,11 @@
-This is a C library for Raspberry Pi (RPi). It provides access to 
+
+此项目基于开源bcm2835库。
+修改了IIC对应的GPIO到GPIO_BANK1，因为使用树莓派CM3，GPIO_BNAK0都用于DPI功能。
+
+以下是原始文件描述：
+This is a C library for Raspberry Pi (RPi). It provides access to
 GPIO and other IO functions on the Broadcom BCM 2835 chip.
 allowing access to the 
 26 pin ISE plug on the RPi board so you can control and interface with various
 external devices.
+
