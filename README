@@ -1,5 +1,5 @@
 
-此项目基于开源bcm2835库。
+此项目基于开源bcm2835库：http://airspayce.com/mikem/bcm2835/
 修改了IIC对应的GPIO到GPIO_BANK1，因为使用树莓派CM3，GPIO_BNAK0都用于DPI功能。
 
 # 下载然后解压改文件夹名“bcm2835-1.58”:
